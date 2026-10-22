@@ -62,9 +62,10 @@ class FlxVideo extends FlxInternalVideo
 	@:noCompletion
 	private function set_resizeMode(value:FlxAxes):FlxAxes
 	{
+		resizeMode = value;
 		onGameResized(FlxG.stage.stageWidth, FlxG.stage.stageHeight);
 
-		return resizeMode = value;
+		return value;
 	}
 }
 #end
