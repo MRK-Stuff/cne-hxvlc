@@ -100,7 +100,7 @@ cd ../../
 rm -rf vlc
 
 # Get "vlc" source.
-buildsystem/get-vlc.sh --vlchash 3697ebcb2716cb4f9c7824b11ce33afefb0212ab
+buildsystem/get-vlc.sh --vlchash 6de05adcbaf2e8b85fe86aad4169393098628119
 
 # Make prebuilt contribs bars.
 export VLC_CONTRIB_SHA=$(cd vlc && extras/ci/get-contrib-sha.sh android-$SHORT_ARCH)
