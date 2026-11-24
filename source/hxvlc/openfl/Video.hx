@@ -970,7 +970,7 @@ class Video extends Bitmap
 				AL.sourceQueueBuffer(alSource, alBuffer);
 
 				alQueuedBuffers.push(alBuffer);
- 
+
 				if (AL.getSourcei(alSource, AL.SOURCE_STATE) != AL.PLAYING)
 					AL.sourcePlay(alSource);
 			}
