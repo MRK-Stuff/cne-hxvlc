@@ -36,7 +36,7 @@ git clone https://code.videolan.org/videolan/VLCKit.git -b 3.0
 cd VLCKit
 
 # Checkout to this ref
-git checkout 00ae8f8763e97fa2aa489de69942fb20f170d015
+git checkout 2c06f8f64ce6e8f48fd25337079a6051e0ca9bdd
 
 # Exit VLCKit
 cd ..
@@ -72,7 +72,7 @@ reorder_patches()
 # Function to download "vlc" and apply patches.
 download_vlc()
 {
-	TESTEDHASH="3697ebcb2716cb4f9c7824b11ce33afefb0212ab" # vlc hash that this version of VLCKit is build on
+	TESTEDHASH="6de05adcbaf2e8b85fe86aad4169393098628119" # vlc hash that this version of VLCKit is build on
 
 	if ! [ -e vlc ]; then
 		git clone https://code.videolan.org/videolan/vlc.git --branch 3.0.x --single-branch vlc
